@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+NSMutableArray *imgArray;
+NSMutableArray *nombreArray;
+NSMutableArray *statusArray;
+NSMutableArray *songArray;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA30FCB1A853A1D00A2BE29 /* itemsContactosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA30FCA1A853A1D00A2BE29 /* itemsContactosCell.m */; };
+		8BA30FCE1A853EF200A2BE29 /* verContactosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA30FCD1A853EF200A2BE29 /* verContactosVC.m */; };
 		8BFCCEA11A818CAE001CF88D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCCEA01A818CAE001CF88D /* main.m */; };
 		8BFCCEA41A818CAE001CF88D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCCEA31A818CAE001CF88D /* AppDelegate.m */; };
 		8BFCCEA71A818CAE001CF88D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCCEA61A818CAE001CF88D /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		8BFCCEAC1A818CAE001CF88D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFCCEAB1A818CAE001CF88D /* Images.xcassets */; };
 		8BFCCEAF1A818CAE001CF88D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFCCEAD1A818CAE001CF88D /* LaunchScreen.xib */; };
 		8BFCCEBB1A818CAF001CF88D /* LAB03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCCEBA1A818CAF001CF88D /* LAB03Tests.m */; };
+		8BFCCEC61A8190B4001CF88D /* ViewGuardar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCCEC51A8190B4001CF88D /* ViewGuardar.m */; };
+		8BFCCEC81A8194E9001CF88D /* v_imnotahipster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BFCCEC71A8194E9001CF88D /* v_imnotahipster.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BA30FC91A853A1D00A2BE29 /* itemsContactosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itemsContactosCell.h; sourceTree = "<group>"; };
+		8BA30FCA1A853A1D00A2BE29 /* itemsContactosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itemsContactosCell.m; sourceTree = "<group>"; };
+		8BA30FCC1A853EF200A2BE29 /* verContactosVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = verContactosVC.h; sourceTree = "<group>"; };
+		8BA30FCD1A853EF200A2BE29 /* verContactosVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = verContactosVC.m; sourceTree = "<group>"; };
 		8BFCCE9B1A818CAE001CF88D /* LAB03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAB03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFCCE9F1A818CAE001CF88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BFCCEA01A818CAE001CF88D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,9 @@
 		8BFCCEB41A818CAF001CF88D /* LAB03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAB03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFCCEB91A818CAF001CF88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BFCCEBA1A818CAF001CF88D /* LAB03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAB03Tests.m; sourceTree = "<group>"; };
+		8BFCCEC41A8190B4001CF88D /* ViewGuardar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewGuardar.h; sourceTree = "<group>"; };
+		8BFCCEC51A8190B4001CF88D /* ViewGuardar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewGuardar.m; sourceTree = "<group>"; };
+		8BFCCEC71A8194E9001CF88D /* v_imnotahipster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_imnotahipster.jpg; path = ../../imgs/v_imnotahipster.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BA30FC51A85393100A2BE29 /* consultar */ = {
+			isa = PBXGroup;
+			children = (
+				8BA30FC91A853A1D00A2BE29 /* itemsContactosCell.h */,
+				8BA30FCA1A853A1D00A2BE29 /* itemsContactosCell.m */,
+				8BA30FCC1A853EF200A2BE29 /* verContactosVC.h */,
+				8BA30FCD1A853EF200A2BE29 /* verContactosVC.m */,
+			);
+			name = consultar;
+			sourceTree = "<group>";
+		};
 		8BFCCE921A818CAD001CF88D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,9 @@
 		8BFCCE9D1A818CAE001CF88D /* LAB03 */ = {
 			isa = PBXGroup;
 			children = (
+				8BA30FC51A85393100A2BE29 /* consultar */,
+				8BFCCEC91A819D36001CF88D /* agregar */,
+				8BFCCEC71A8194E9001CF88D /* v_imnotahipster.jpg */,
 				8BFCCEA21A818CAE001CF88D /* AppDelegate.h */,
 				8BFCCEA31A818CAE001CF88D /* AppDelegate.m */,
 				8BFCCEA51A818CAE001CF88D /* ViewController.h */,
@@ -117,6 +142,15 @@
 				8BFCCEB91A818CAF001CF88D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BFCCEC91A819D36001CF88D /* agregar */ = {
+			isa = PBXGroup;
+			children = (
+				8BFCCEC41A8190B4001CF88D /* ViewGuardar.h */,
+				8BFCCEC51A8190B4001CF88D /* ViewGuardar.m */,
+			);
+			name = agregar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +235,7 @@
 			files = (
 				8BFCCEAA1A818CAE001CF88D /* Main.storyboard in Resources */,
 				8BFCCEAF1A818CAE001CF88D /* LaunchScreen.xib in Resources */,
+				8BFCCEC81A8194E9001CF88D /* v_imnotahipster.jpg in Resources */,
 				8BFCCEAC1A818CAE001CF88D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BFCCEA71A818CAE001CF88D /* ViewController.m in Sources */,
+				8BFCCEC61A8190B4001CF88D /* ViewGuardar.m in Sources */,
 				8BFCCEA41A818CAE001CF88D /* AppDelegate.m in Sources */,
+				8BA30FCE1A853EF200A2BE29 /* verContactosVC.m in Sources */,
 				8BFCCEA11A818CAE001CF88D /* main.m in Sources */,
+				8BA30FCB1A853A1D00A2BE29 /* itemsContactosCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +452,7 @@
 				8BFCCEC01A818CAF001CF88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BFCCEC11A818CAF001CF88D /* Build configuration list for PBXNativeTarget "LAB03Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +461,7 @@
 				8BFCCEC31A818CAF001CF88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

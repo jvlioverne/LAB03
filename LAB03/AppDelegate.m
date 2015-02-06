@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    imgArray = [[NSMutableArray alloc] init];
+    nombreArray = [[NSMutableArray alloc] init];
+    statusArray = [[NSMutableArray alloc] init];
+    songArray = [[NSMutableArray alloc] init];
     return YES;
 }
 
